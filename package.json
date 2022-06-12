@@ -1,9 +1,9 @@
 {
-  "name": "discord-js-bot",
+  "name": "rakubot",
   "version": "4.2.3",
-  "description": "An open-source, multipurpose discord bot built using discord-js",
+  "description": "Rakkigusu's official bot",
   "main": "bot.js",
-  "author": "Sai Teja M",
+  "author": "Rakkigusu",
   "license": "ISC",
   "engines": {
     "node": ">=16.6.0"
@@ -12,14 +12,7 @@
     "dev": "nodemon .",
     "start": "node ."
   },
-  "homepage": "https://github.com/saiteja-madha/discord-js-bot#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/saiteja-madha/discord-js-bot.git"
-  },
-  "bugs": {
-    "url": "https://github.com/saiteja-madha/discord-js-bot/issues"
-  },
+ 
   "dependencies": {
     "@vitalets/google-translate-api": "^8.0.0",
     "ascii-table": "0.0.9",

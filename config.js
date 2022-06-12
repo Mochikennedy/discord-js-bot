@@ -1,12 +1,12 @@
 module.exports = {
-  OWNER_IDS: [], // Bot owner ID's
+  OWNER_IDS: [893580431381917716], // Bot owner ID's
   PREFIX: "!", // Default prefix for the bot
   SUPPORT_SERVER: "", // Your bot support server
   PRESENCE: {
     ENABLED: true, // Whether or not the bot should update its status
-    STATUS: "online", // The bot's status [online, idle, dnd, invisible]
+    STATUS: "idle", // The bot's status [online, idle, dnd, invisible]
     TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
-    MESSAGE: "{members} members in {servers} servers", // Your bot status message
+    MESSAGE: "{members} members", // Your bot status message
   },
   DASHBOARD: {
     enabled: false, // enable or disable dashboard
@@ -30,7 +30,7 @@ module.exports = {
   ECONOMY: {
     CURRENCY: "₪",
     DAILY_COINS: 100, // coins to be received by daily command
-    MIN_BEG_AMOUNT: 100, // minimum coins to be received when beg command is used
+    MIN_BEG_AMOUNT: 70, // minimum coins to be received when beg command is used
     MAX_BEG_AMOUNT: 2500, // maximum coins to be received when beg command is used
   },
   SUGGESTIONS: {
@@ -53,7 +53,7 @@ module.exports = {
       {
         host: "ger.lavalink.mitask.tech",
         port: 2333,
-        password: "lvserver",
+        password: "youshallnotpass",
         identifier: "German Link",
         retryDelay: 5000,
         secure: false,
@@ -61,7 +61,7 @@ module.exports = {
       {
         host: "usa.lavalink.mitask.tech",
         port: 2333,
-        password: "lvserver",
+        password: "youshallnotpass",
         identifier: "USA Link",
         retryDelay: 5000,
         secure: false,
